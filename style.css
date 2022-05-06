@@ -1,0 +1,133 @@
+@font-face {
+    font-family: QuantumSansSerif;
+    src: url("font/Quantum.otf");
+}
+*{
+    margin: 0;
+}
+.focus_background{
+    float: left;
+    position: fixed;
+    
+}
+.focus_background > img{
+    height: 100vh;
+    width: 30vw;
+}
+.logobox{
+    position: absolute;
+    left: 0;
+    top: 35vh;
+    font-family: QuantumSansSerif;
+    font-size: 2em;
+    background-color: rgba(245, 245, 245, 0.355);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.logobox > img {
+    width: 30%;
+    
+}
+.headline{
+    padding: 1rem;
+    position: relative;
+    top: 3em;
+    
+    font-weight: 700;
+}
+.form_layout{
+    display: flex;
+    
+    margin: 0;
+    right: 0em;
+    position: absolute;
+    flex-direction: column;
+    height: 100vh;
+    width: 68.9vw;
+    padding-bottom: 10em;
+    
+}
+
+form{
+    display: flex;
+    position: relative;
+    align-self: center;
+    background-color: silver;
+    height: 50vh;
+    flex-wrap: wrap;
+    right: 0;
+    top: 10vh;
+    padding: 2rem 0;
+    
+    
+}
+
+h3{
+    width: 100%;
+    align-self:center;
+    font-size: 2rem;
+    padding: 0;
+
+
+}
+
+label,input{
+    
+    display: block;
+    
+}
+input,label,h3{
+    margin-left: 1rem;
+}
+label{
+    font-size: 0.8em;
+}
+.inputbox{
+    align-self: center;
+    width: max(45%,400px);
+}
+input{
+    box-sizing: border-box;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    height: 2em;
+    width: 80%;   
+}
+input{
+    box-sizing: border-box;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    height: 2em;
+    width: 80%;
+}
+input:active{
+    border-color: #003b59;
+}
+input:focus{
+    outline: none ;
+    border: 3px solid #003b59;
+}
+#enter_password{
+    
+}
+.sign_up_btn{
+    position: relative;
+    top: 15vh;
+    width: 20vw;
+    margin-left: 2rem;
+    background-color: green;
+    color: #E5E7EB;
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+
+
+}
+.sign_up_btn:hover{
+    background-color: #003b59;
+    box-shadow: pink 2px;
+}
